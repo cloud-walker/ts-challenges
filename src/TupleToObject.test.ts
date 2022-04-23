@@ -4,7 +4,7 @@ import {TupleToObject} from './TupleToObject'
 
 const tuple = ['tesla', 'model 3', 'model X', 'model Y'] as const
 
-type cases = [
+export type cases = [
   ExpectTrue<
     Equal<
       TupleToObject<typeof tuple>,

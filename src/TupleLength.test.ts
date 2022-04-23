@@ -11,7 +11,7 @@ const spaceX = [
   'HUMAN SPACEFLIGHT',
 ] as const
 
-type cases = [
+export type cases = [
   ExpectTrue<Equal<TupleLength<typeof tesla>, 4>>,
   ExpectTrue<Equal<TupleLength<typeof spaceX>, 5>>,
   // @ts-expect-error

@@ -2,7 +2,7 @@ import {Equal} from './Equal'
 import {ExpectTrue} from './Expect'
 import {MyPick} from './MyPick'
 
-interface Todo {
+type Todo = {
   title: string
   description: string
   completed: boolean
