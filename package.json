@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "types": "tsc",
-    "test": "tsc -w"
+    "types": "tsc --noEmit",
+    "test": "tsc --watch --noEmit"
   },
   "private": true,
   "dependencies": {
