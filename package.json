@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "types": "tsc",
+    "test": "tsc -w"
+  },
   "private": true,
   "dependencies": {
     "typescript": "^4.6.3"

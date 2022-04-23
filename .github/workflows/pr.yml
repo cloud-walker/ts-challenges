@@ -1,0 +1,8 @@
+name: PR
+on: [pull_request]
+jobs:
+  type:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm run types
