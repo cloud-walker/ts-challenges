@@ -17,3 +17,11 @@ Here are listed all the discovered keywords and symbols about TS:
 - `&`
 - `?:`
 - `...`
+
+## Built-in types
+
+- `Promise`
+- `Uppercase`
+- `Omit`
+- `Pick`
+- `Required`
